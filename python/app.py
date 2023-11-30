@@ -3,7 +3,10 @@ app =Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'hello world 100'
+    msg ='hello welcome all'
+    return msg
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+print(__name__)
